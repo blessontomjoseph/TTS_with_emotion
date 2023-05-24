@@ -25,7 +25,7 @@ if __name__ == '__main__':
             vocoder = SpeechT5HifiGan.from_pretrained("microsoft/speecht5_hifigan") 
         st.success('model ready!')
 
-        with st.spinner("generating caption..."):
+        with st.spinner("generating speech..."):
             start_time = time.time()
             speech=gen(text,emo,model.to('cpu'),torch.load('speaker_embeddings.pt'))
             response_time = time.time() - start_time
