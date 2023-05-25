@@ -14,6 +14,6 @@ The base TTS model used for fine-tuning is [microsoft/speecht5_tts](https://hugg
 [Try generating speech](https://blessontomjoseph-tts-with-emotion-app-jys0bs.streamlit.app/)
 
 ## Links
-The [text_to_speech notebook](text-to-speech.ipynb) was trained on kaggle, for reproducing the results or for running, fork my notebook 👉 [notebook](https://www.kaggle.com/code/blessontomjoseph/text-to-speech/edit)
+The [text_to_speech notebook](text-to-speech.ipynb) was trained on kaggle, for reproducing the results or for running, fork my notebook 👉 [notebook](https://www.kaggle.com/blessontomjoseph/text-to-speech)
 
 Find the fine tuned model on huggingface hub 👉 [model](https://huggingface.co/theothertom/emo_t5_speech_chkpt/tree/main)
