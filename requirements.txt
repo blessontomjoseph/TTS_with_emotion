@@ -1,4 +1,5 @@
 torch==1.13.1
 transformers==4.29.2
 streamlit==1.22.0
+torchaudio==0.13.1
 IPython
